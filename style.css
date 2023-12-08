@@ -1,0 +1,155 @@
+/* Hero Section */
+.hero-section {
+  padding: 4.8rem 0;
+  background-color: whitesmoke;
+}
+.container-hero {
+  max-width: 140.4rem;
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  column-gap: 6.4rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-desc {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+.hero-list {
+  list-style: none;
+  margin-bottom: 3.2rem;
+}
+.hero-list-icon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.hero-list-item {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.hero-form {
+  display: flex;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+.form-field {
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+.form-field::placeholder {
+  font-size: 1.8rem;
+  font-family: inherit;
+  opacity: 0.6;
+}
+.hero-form-btn {
+  padding: 1.8rem 2.4rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #222;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.hero-form-btn:hover {
+  background-color: #000;
+}
+.hero-img-box {
+}
+.hero-img {
+  width: 100%;
+}
+
+/* Clients Logos Section */
+.clients-section {
+  padding: 4.8rem 0;
+}
+.container-clients {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.4rem;
+  max-width: 140.4rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.client-logo-box {
+  padding: 1.4rem;
+  text-align: center;
+}
+.client-logo {
+  width: 100%;
+}
+
+/* Escrow Section */
+
+.escrow-section {
+  padding: 0 0 4.8rem 0;
+}
+.container-escrow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 140.4rem;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border-radius: 18px;
+}
+.escrow-textbox {
+  padding: 9.6rem;
+}
+.escrow-desc {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.escrow-img-box {
+  padding: 6.4rem 9.6rem 0 9.6rem;
+}
+.escrow-img {
+  width: 100%;
+}
+
+/* Demo Section */
+.demo-section {
+  padding: 6.4rem 0;
+}
+.container-demo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 140.4rem;
+}
+.demo-img-box {
+}
+.demo-img {
+  width: 100%;
+}
+.demo-text-box {
+  padding: 0 6.4rem;
+}
+.demo-desc {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.simple-cta {
+  display: inline-block;
+  color: inherit;
+}
